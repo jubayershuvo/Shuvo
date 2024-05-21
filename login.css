@@ -11,7 +11,7 @@ body{
 a{
   text-decoration: none;
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   header{
     position: relative;
     height: 70px;
@@ -265,7 +265,7 @@ a{
 
 
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   header{
     position: relative;
     height: 55px;
