@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.up{
+    width: 100%;
+}
+.prof{
+    text-align: center;
+    font-family: sans-serif;
+}
+.data{
+    display: flex;
+}
+.background{
+    background:url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    z-index: 1 ;
+}
+.profile-photo{
+    background:url('./img/me.jpg') white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.name{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: 20px;
+}
+.name span{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: 18px;
+}
+.profession{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.bio{
+    margin-left: 10px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.dataTxt{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.border{
+    margin: 20px 0;
+}
+.links{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.s-links{
+    left: 0;
+    width: 50%;
+}
+.s-links h2{
+    display: inline;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+}
+.c-info{
+    right: 0;
+    width: 50%;
+}
+.c-info h2{
+    display: inline;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+}
+ul li{
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px gray;
+}
+.fb{
+    background-color: rgb(1, 101, 255);
+    color: white;
+}
+.fb:hover{
+    opacity: .8;
+}
+.yt{
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+}
+.yt:hover{
+    opacity: .8;
+}
+.tk{
+    background: black;
+    color: white;
+}
+.tk:hover{
+    opacity: .8;
+}
+.twit{
+    background: white;
+    color: 	#1DA1F2;
+    
+}
+.twit:hover{
+    opacity: .8;
+}
+.insta{
+    color: #9608f5;
+
+}
+.insta:hover{
+    opacity: .8;
+}
+.user-address{
+    margin-top: 20px;
+}
+.user-address p{
+    width: 60%;
+    margin: auto;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.photos{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.photos h2{
+    display: inline-block;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.all-photos{
+    width: 100%;
+}
+.all-photos img{
+    width: 49%;
+    border-radius: 10px;
+    max-height: 600px;
+}
+.tnx{
+    text-align: center;
+}
+.footer{
+    position: static;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: rgb(232, 229, 229);
+}
+
+.footer section{
+    width: 30%;
+    margin: 0 1.667%;
+    text-align: center;
+}
+.cmn{
+    position: relative;
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    width: 90%;
+    text-align: start;
+}
+.cmn h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-top: 100px;
+    
+}
+.cmn .address{
+    margin-top: 65px;
+}
+.cmn h2 span{
+    color: orange;
+}
+.cmn h3{
+    display: inline-block;
+    margin-top: 60px;
+    border-bottom: 5px solid;
+    border-radius: 5px;
+}
+.cmn p{
+    margin: 0;
+}
+.socialMedia{
+    text-align: center;
+    background-color: rgb(232, 229, 229);
+
+}
+.socialMedia img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.copy{
+    text-align: center;
+}
+.items a{
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    color: black;
+}
+@media (max-width:770px) {
+    .background{
+        height: 200px;
+    }
+    .sec1{
+        flex-direction: column;
+    }
+    .profile-photo{
+        display: block;
+        margin: auto;
+        margin-top: -50px;
+        height: 150px;
+        width: 150px;
+        z-index: 1;
+    }
+    .dataTxt{
+        margin: 10px 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .links{
+        display: block;
+        width: 100%;
+    }
+    .s-links{
+        display: block;
+        width: 100%;
+    }
+    .c-info{
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .data{
+        display: block;
+    }
+
+    .user-address p{
+        width: 90%;
+        margin-top: 5px;
+    }
+    .all-photos img{
+        width: 90%;
+    }
+    .footer{
+        height: 180px;
+    }
+    .cmn h3{
+        font-size: 18px;
+
+    } 
+    .cmn h2{
+        font-size: 10px;
+        margin-top: 70px;
+    }
+    .cmn h2 span{
+        font-size: 19px;
+    }
+    .cmn p{
+        font-size: 10px;
+    }
+    .socialMedia{
+        text-align: center;
+        height: 40px;
+        width: 100%;
+    }
+    .socialMedia img{
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+    .copy{
+        font-size: 10px;
+    }
+    .items a{
+        font-size: 10px;
+    }
+}
