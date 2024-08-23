@@ -249,6 +249,9 @@ ul li a{
         width: 150px;
         z-index: 1;
     }
+    .profession{
+    margin-left: 0px;
+    }
     .dataTxt{
         margin: 10px 0;
         padding: 0;
