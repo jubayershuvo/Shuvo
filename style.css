@@ -14,7 +14,7 @@
     display: flex;
 }
 .background{
-    background:url('./img/background.jpg');
+    background:url('https://res.cloudinary.com/dhw3jdygg/image/upload/v1724399836/img/zm968zpodwl96b6diijb.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     z-index: 1 ;
 }
 .profile-photo{
-    background:url('./img/me.jpg') white;
+    background:url('https://res.cloudinary.com/dhw3jdygg/image/upload/v1724399737/img/m6nnizdxdd7znrirqppi.jpg') white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
